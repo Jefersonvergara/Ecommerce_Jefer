@@ -577,7 +577,15 @@ body.dark-theme {
 
 .products__card:hover .products__img {
   transform: translateY(-.25rem);
+  margin:80px 0;
+  transform : scale(2);
+  -moz-transform : scale(2); /* Firefox */
+  -webkit-transform : scale(2); /* Chrome - Safari */
+  -o-transform : scale(2); /* Opera */
+  -ms-transform : scale(1); /* IE9 */
+}
 
+.products__img:hover{
   transform : scale(2);
   -moz-transform : scale(2); /* Firefox */
   -webkit-transform : scale(2); /* Chrome - Safari */
